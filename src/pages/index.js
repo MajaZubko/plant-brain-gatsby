@@ -1,7 +1,7 @@
 import * as React from "react"
 import {graphql} from "gatsby";
 import {Card} from '../components/Card'
-import {CardsContainer, Container, GlobalStyle, Title, TitleContainer, CardLink} from './index.styles'
+import {CardsContainer, Container, GlobalStyle, Title, TitleContainer, CardLink} from '../styles/index.styles'
 
 const IndexPage = ({data}) => {
   const plants = data?.allContentfulEntry?.edges?.map(edge => edge.node)?.slice(6,12);

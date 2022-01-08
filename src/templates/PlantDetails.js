@@ -9,8 +9,8 @@ import {
     PlantCard,
     PlantLatinName,
     PlantName
-} from "./PlantDetails.styles";
-import {GlobalStyle} from "../pages/index.styles";
+} from "../styles/PlantDetails.styles";
+import {GlobalStyle} from "../styles/index.styles";
 
 const PlantDetails = ({data}) => {
     const plant = data.contentfulEntry

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, PlantLatinName, PlantName, ImageContainer, NamesContainer} from "./Card.styles";
+import {Container, PlantLatinName, PlantName, ImageContainer, NamesContainer} from "../styles/Card.styles";
 import {GatsbyImage, getImage} from "gatsby-plugin-image";
 
 export const Card = ({name, latinName, image}) =>  (
